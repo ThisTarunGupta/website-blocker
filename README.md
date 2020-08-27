@@ -20,5 +20,5 @@ npm i nodemon # Recommended
       node app.js
    4. Open [http://127.0.0.1:3000](http:127.0.0.1:3000)
    
-#### You can DM me on [Instagram](https://www.instagram.com/tarug10) for any query or if you want *exe* file.
+#### You can DM me on [Instagram](https://www.instagram.com/tarung10) for any query or if you want *exe* file.
 #### Happy Coding...
