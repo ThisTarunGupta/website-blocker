@@ -1,56 +1,56 @@
 <!DOCTYPE HTML>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="generator" content="Website Blocker">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Website Blocker">
     <meta name="author" content="Tarun Gupta">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" >
     <meta name="description" content="A website blocker site based on node js.">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> 
-		<style>
-			.custom {
-  			border: 1px grey solid;
-  			background: white;
-  			color: grey;
-			}
-			.custom::hover {
-  			border: 1px white solid;
-  			background: grey;
-  			color: white;
-			}
-			@media(min-width: 768px) {
-				.form-centered {
-					margin: 0 auto;
-					width: 500px;
-				}
-			}	
-		</style>
-	</head>
-	<body>
-		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    	<a class="navbar-brand" href="/">Website Blocker</a>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> 
+    <style>
+      .custom {
+        border: 1px grey solid;
+  	background: white;
+  	color: grey;
+      }
+      .custom::hover {
+        border: 1px white solid;
+        background: grey;
+        color: white;
+      }
+      @media(min-width: 768px) {
+        .form-centered {
+	  margin: 0 auto;
+	  width: 500px;
+	}
+      }	
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">	
+      <a class="navbar-brand" href="/">Website Blocker</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       	<span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
-      	<ul class="navbar-nav mr-auto">
-        	<li class="nav-item">
-          	<a class="nav-link" href="#">Add</a>
-         	</li>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Add</a>
+          </li>
         </ul>
-			</div>
+      </div>
     </nav>
-		<br><br><br>
-		<center>
-			<form role="form" method="post" action="/add">
-				<div class="form-group form-centered">
-					<label class="contol-label sr-only" for="website">Website</label>
-					<input type="text" name="website" class="form-control" placeholder="Add website..." value="" required><br>
-					<input type="submit" class="custom btn-lg" value="Add">
-				</div>
-			</form>
-		</center>
-	</body>
+    <br><br><br>
+    <center>
+      <form role="form" method="post" action="/add">
+        <div class="form-group form-centered">
+	  <label class="contol-label sr-only" for="website">Website</label>
+	  <input type="text" name="website" class="form-control" placeholder="Add website..." value="" required><br>
+	  <input type="submit" class="custom btn-lg" value="Add">
+	</div>
+      </form>
+    </center>
+  </body>
 </html>
