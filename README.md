@@ -2,8 +2,8 @@
 ## Maintained by : Tarun Gupta ( @tarung10 )
 
 ### Prerequisities :
-   nodejs
-   express
+   * nodejs
+   * express
    
 ### Setup on Linux/Debian :
 ```bash
