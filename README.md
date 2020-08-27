@@ -8,8 +8,8 @@
 ### Setup on Linux/Debian :
 ```bash
 sudo apt-get install nodejs
-npm i express 
-npm i nodemon # Recommended
+sudo npm i express 
+sudo npm i nodemon # Recommended
 ```
 
 ### How to use :
