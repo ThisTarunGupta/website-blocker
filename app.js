@@ -11,7 +11,7 @@ if (process.platform === 'win32')
 	 file = 'C://Windows//System32//drivers//etc';
 let websites = [];
 
-// Routing
+// Routing rules
 app.get('/', (req, res) => {
 	fs.readFile('./templates/default-template.html', 'utf-8', (err, data) =>{
 		if (err) return res.status(400).send('Error in opening <i>default-template.html</i>...');
